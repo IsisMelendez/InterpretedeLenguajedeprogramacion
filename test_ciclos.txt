@@ -1,0 +1,12 @@
+contador = 1;
+limite = 5;
+decir("Iniciando cuenta...");
+durante (contador < limite) {
+    decir("El valor actual es:");
+    decir(contador);
+    contador = contador + 1;
+}
+cuando (contador == limite) {
+    decir("Ciclo terminado con exito");
+    decir(contador);
+}

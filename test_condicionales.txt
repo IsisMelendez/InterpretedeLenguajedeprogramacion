@@ -1,0 +1,15 @@
+num1 = 50;
+num2 = 30;
+decir("Comparando numeros...");
+cuando (num1 > num2) {
+    decir("X es mayor que Y");
+    cuando (num1 == 50) {
+        decir("Ademas, X es exactamente 50");
+    }
+} deotro {
+    decir("X no es mayor que Y");
+}
+soleado = verdadero;
+cuando (soleado) {
+    decir("El dia esta soleado");
+}

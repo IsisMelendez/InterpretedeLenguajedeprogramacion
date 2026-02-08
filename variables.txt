@@ -1,0 +1,12 @@
+nombre = "Usuario";
+edad = 20;
+puntaje = 10.5;
+bono = 5;
+decir("Calculando puntaje final para:");
+decir(nombre);
+total = puntaje + bono;
+decir("El total es:");
+decir(total);
+resultado = (10 + 5) * 2 / 3;
+decir("Resultado de operacion compleja:");
+decir(resultado);
